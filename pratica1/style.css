@@ -1,0 +1,319 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+
+/*black #3d3e3a*/
+/*whitegren #5bbc2a*/
+/*white #d7dac7*/
+/*yellow #daa916 */
+/*redorange #c66044*/
+/*blackgren #016f24*/
+
+
+.yoshi {
+    margin: 40px 150px;
+    background-color: #3d3e3a;
+    height: 13px;
+    width: 13px;
+    box-shadow: 
+    /*face fist line*/
+    0.6em 0em #3d3e3a,1.9em 0em #3d3e3a,2.6em 0em #3d3e3a,
+    
+    /*face second line*/
+    -1em 0.7em #3d3e3a,
+    -0.2em 0.7em #5bbc2a,
+    0.5em 0.7em #5bbc2a,
+    1.2em 0.7em #3d3e3a,
+    1.9em 0.7em #5bbc2a,
+    2.6em 0.7em #5bbc2a,
+    3.3em 0.7em #3d3e3a,
+    
+    /*face third line*/
+    -1.8em 1.5em #3d3e3a,-1em 1.5em #5bbc2a,
+    -0.2em 1.5em #d7dac7,0.5em 1.5em #d7dac7,
+    1.2em 1.5em #d7dac7,1.9em 1.5em #d7dac7,
+    2.6em 1.5em #5bbc2a,3.3em 1.5em #5bbc2a,
+    4.1em 1.5em #3d3e3a,
+    
+    /*face fourth line*/
+    -1.8em 2.3em #3d3e3a,-1em 2.3em #d7dac7,
+    -0.2em 2.3em #3d3e3a,0.5em 2.3em #d7dac7,
+    1.2em 2.3em #3d3e3a,1.9em 2.3em #d7dac7,
+    2.6em 2.3em #d7dac7,3.3em 2.3em #5bbc2a,
+    4.1em 2.3em #3d3e3a,4.8em 2.3em #3d3e3a,
+    5.5em 2.3em #3d3e3a,6.2em 2.3em #3d3e3a,
+    
+    /*face fifth line */
+    -1.8em 3.1em #3d3e3a,-1em 3.1em #d7dac7,
+    -0.2em 3.1em #3d3e3a,0.5em 3.1em #d7dac7,
+    1.2em 3.1em #3d3e3a,1.9em 3.1em #d7dac7,
+    2.6em 3.1em #d7dac7,3.3em 3.1em #d7dac7,
+    4.1em 3.1em #3d3e3a,4.8em 3.1em #daa916,
+    5.5em 3.1em #daa916,6.2em 3.1em #c66044,
+    7em 3.1em #3d3e3a,
+
+    /*face sixth line */
+    -3.2em 3.9em #3d3e3a,-2.5em 3.9em #3d3e3a,
+    -1.8em 3.9em #3d3e3a,-1em 3.9em #d7dac7,
+    -0.2em 3.9em #d7dac7,0.5em 3.9em #d7dac7,
+    1.2em 3.9em #d7dac7,1.9em 3.9em #d7dac7,
+    2.6em 3.9em #d7dac7,3.3em 3.9em #d7dac7,
+    4.1em 3.9em #3d3e3a,4.8em 3.9em #3d3e3a,
+    5.5em 3.9em #c66044,6.2em 3.9em #c66044,
+    7em 3.9em #3d3e3a,
+
+    /*face seventh line*/
+    -4em 4.6em #3d3e3a,-3.2em 4.6em #5bbc2a,-2.5em 4.6em #5bbc2a,
+    -1.8em 4.6em #5bbc2a,-1em 4.6em #3d3e3a,
+    -0.2em 4.6em #d7dac7,0.5em 4.6em #5bbc2a,
+    1.2em 4.6em #d7dac7,1.9em 4.6em #d7dac7,
+    2.6em 4.6em #d7dac7,3.3em 4.6em #5bbc2a,
+    4.1em 4.6em #5bbc2a,4.8em 4.6em #5bbc2a,
+    5.5em 4.6em #3d3e3a,6.2em 4.6em #3d3e3a,
+    7em 4.6em #3d3e3a,
+
+    /* face eight line */
+    -4.8em 5.4em #3d3e3a,-4em 5.4em #5bbc2a,-3.2em 5.4em #d7dac7,-2.5em 5.4em #d7dac7,
+    -1.8em 5.4em #5bbc2a,-1em 5.4em #5bbc2a,
+    -0.2em 5.4em #5bbc2a,0.5em 5.4em #5bbc2a,
+    1.2em 5.4em #5bbc2a,1.9em 5.4em #5bbc2a,
+    2.6em 5.4em #5bbc2a,3.3em 5.4em #5bbc2a,
+    4.1em 5.4em #d7dac7,4.8em 5.4em #5bbc2a,
+    5.5em 5.4em #5bbc2a,6.2em 5.4em #3d3e3a,
+    7em 5.4em #daa916,7.8em 5.4em #3d3e3a,
+
+    /*face night line*/
+    -4.8em 6.2em #3d3e3a,-4em 6.2em #3d3e3a,
+    -3.2em 6.2em #d7dac7,-2.5em 6.2em #3d3e3a,
+    -1.8em 6.2em #5bbc2a,-1em 6.2em #5bbc2a,
+    -0.2em 6.2em #5bbc2a,0.5em 6.2em #5bbc2a,
+    1.2em 6.2em #5bbc2a,1.9em 6.2em #d7dac7,
+    2.6em 6.2em #d7dac7,3.3em 6.2em #d7dac7,
+    4.1em 6.2em #5bbc2a,4.8em 6.2em #5bbc2a,
+    5.5em 6.2em #5bbc2a,6.2em 6.2em #3d3e3a,
+    7em 6.2em #c66044,7.8em 6.2em #c66044,
+    8.6em 6.2em #3d3e3a,
+
+    /*face tenth line*/
+    -5.6em 7em #3d3e3a,-4.8em 7em #5bbc2a,
+    -4em 7em #5bbc2a,-3.2em 7em #5bbc2a,
+    -2.5em 7em #5bbc2a,-1.8em 7em #5bbc2a,
+    -1em 7em #5bbc2a,-0.2em 7em #5bbc2a,
+    0.5em 7em #5bbc2a,1.2em 7em #5bbc2a,
+    1.9em 7em #d7dac7,2.6em 7em #d7dac7,
+    3.3em 7em #d7dac7,4.1em 7em #d7dac7,
+    4.8em 7em #5bbc2a,5.5em 7em #5bbc2a,
+    6.2em 7em #3d3e3a,7em 7em #c66044,
+    7.8em 7em #c66044,8.6em 7em #3d3e3a,
+
+    /*face eleventh line*/
+    -5.6em 7.8em #3d3e3a,-4.8em 7.8em #5bbc2a,
+    -4em 7.8em #5bbc2a,-3.2em 7.8em #5bbc2a,
+    -2.5em 7.8em #5bbc2a,-1.8em 7.8em #5bbc2a,
+    -1em 7.8em #5bbc2a,-0.2em 7.8em #5bbc2a,
+    0.5em 7.8em #5bbc2a,1.2em 7.8em #5bbc2a,
+    1.9em 7.8em #d7dac7,2.6em 7.8em #d7dac7,
+    3.3em 7.8em #d7dac7,4.1em 7.8em #d7dac7,
+    4.8em 7.8em #5bbc2a,5.5em 7.8em #5bbc2a,
+    6.2em 7.8em #3d3e3a,7em 7.8em #3d3e3a,
+    7.8em 7.8em #3d3e3a,
+
+    /*face twelfth line*/
+    -5.6em 8.6em #3d3e3a,-4.8em 8.6em #5bbc2a,
+    -4em 8.6em #5bbc2a,-3.2em 8.6em #5bbc2a,
+    -2.5em 8.6em #5bbc2a,-1.8em 8.6em #5bbc2a,
+    -1em 8.6em #5bbc2a,-0.2em 8.6em #5bbc2a,
+    0.5em 8.6em #5bbc2a,1.2em 8.6em #3d3e3a,
+    1.9em 8.6em #d7dac7,2.6em 8.6em #d7dac7,
+    3.3em 8.6em #d7dac7,4.1em 8.6em #d7dac7,
+    4.8em 8.6em #5bbc2a,5.5em 8.6em #5bbc2a,
+    6.2em 8.6em #3d3e3a,7em 8.6em #3d3e3a,
+
+    /* face thirteenth line */
+    -5.6em 9.4em #3d3e3a,-4.8em 9.4em #5bbc2a,
+    -4em 9.4em #5bbc2a,-3.2em 9.4em #5bbc2a,
+    -2.5em 9.4em #5bbc2a,-1.8em 9.4em #5bbc2a,
+    -1em 9.4em #5bbc2a,-0.2em 9.4em #5bbc2a,
+    0.5em 9.4em #5bbc2a,1.2em 9.4em #3d3e3a,
+    1.9em 9.4em #3d3e3a,2.6em 9.4em #d7dac7,
+    3.3em 9.4em #d7dac7,4.1em 9.4em #5bbc2a,
+    4.8em 9.4em #5bbc2a,5.5em 9.4em #3d3e3a,
+    6.2em 9.4em #c66044,7em 9.4em #3d3e3a,
+
+    /* face fourteenth line */
+    -4.8em 10.2em #3d3e3a,-4em   10.2em #5bbc2a,
+    -3.2em 10.2em #5bbc2a,-2.5em 10.2em #5bbc2a,
+    -1.8em 10.2em #5bbc2a,-1em   10.2em #5bbc2a,
+    -0.2em 10.2em #5bbc2a,0.5em  10.2em #5bbc2a,
+    1.2em  10.2em #3d3e3a,1.9em  10.2em #d7dac7,
+    2.6em  10.2em #d7dac7,3.3em  10.2em #5bbc2a,
+    4.1em  10.2em #5bbc2a,4.8em  10.2em #3d3e3a,
+    5.5em  10.2em #3d3e3a,6.2em  10.2em #3d3e3a,
+
+    /* face fifteenth line */
+    -4em   11em #3d3e3a,-3.2em 11em #3d3e3a,
+    -2.5em 11em #5bbc2a,
+    -1.8em 11em #5bbc2a,-1em   11em #5bbc2a,
+    -0.2em 11em #5bbc2a,0.5em  11em #3d3e3a,
+    1.2em  11em #d7dac7,1.9em  11em #d7dac7,
+    2.6em  11em #d7dac7,3.3em  11em #5bbc2a,
+    4.1em  11em #5bbc2a,4.8em  11em #3d3e3a,
+    5.5em  11em #c66044,6.2em 11em #3d3e3a,
+
+    /*body 1th line*/
+    -2.5em 11.8em #3d3e3a,
+    -1.8em 11.8em #3d3e3a,-1em   11.8em #3d3e3a,
+    -0.2em 11.8em #3d3e3a,0.5em  11.8em #333,
+    1.2em  11.8em #3d3e3a,1.9em  11.8em #d7dac7,
+    2.6em  11.8em #d7dac7,3.3em  11.8em #5bbc2a,
+    4.1em  11.8em #5bbc2a,4.8em  11.8em #5bbc2a,
+    5.5em  11.8em #3d3e3a,6.2em 11.8em #3d3e3a,
+    7em 11.8em #3d3e3a,7.8em 11.8em #3d3e3a,
+    8.6em 11.8em #3d3e3a,
+
+    /* body 2th line */
+    -0.2em 12.6em #1385ff,0.5em  12.6em #333,
+    1.2em  12.6em #3d3e3a,1.9em  12.6em #d7dac7,
+    2.6em  12.6em #d7dac7,3.3em  12.6em #d7dac7,
+    4.1em  12.6em #5bbc2a,4.8em  12.6em #5bbc2a,
+    5.5em  12.6em #3d3e3a,6.2em  12.6em #3d3e3a,
+    7em    12.6em #3d3e3a,7.8em  12.6em #d7dac7,
+    8.6em  12.6em #daa916, 9.4em 12.6em #3d3e3a,
+
+    /*body 3th line*/
+    -1em 13.4em #3d3e3a,
+    -0.2em 13.4em #5bbc2a,
+    0.5em  13.4em #d7dac7,
+    1.2em  13.4em #3d3e3a,1.9em  13.4em #d7dac7,
+    2.6em  13.4em #d7dac7,3.3em  13.4em #d7dac7,
+    4.1em  13.4em #5bbc2a,4.8em  13.4em #5bbc2a,
+    5.5em  13.4em #5bbc2a,6.2em  13.4em #5bbc2a,
+    7em    13.4em #3d3e3a,7.8em  13.4em #3d3e3a,
+    8.6em  13.4em #daa916, 9.4em 13.4em #daa916,
+    10.2em 13.4em #3d3e3a, 11em 13.4em #3d3e3a,
+
+    /*body 4th line*/
+    -1.8em 14.2em #3d3e3a,-1em 14.2em #5bbc2a,
+    -0.2em 14.2em #d7dac7,0.5em  14.2em #3d3e3a,
+    1.2em  14.2em #3d3e3a,1.9em  14.2em #d7dac7,
+    2.6em  14.2em #d7dac7,3.3em  14.2em #d7dac7,
+    4.1em  14.2em #d7dac7,4.8em  14.2em #3d3e3a,
+    5.5em  14.2em #5bbc2a,6.2em  14.2em #5bbc2a,
+    7em    14.2em #5bbc2a,7.8em  14.2em #5bbc2a,
+    8.6em  14.2em #3d3e3a,9.4em 14.2em #3d3e3a,
+    10.2em 14.2em #d7dac7, 11em 14.2em #3d3e3a,
+    11.8em 14.2em #3d3e3a,12.6em 14.2em #3d3e3a,
+
+    /*body 5th line*/
+    -1.8em 15em #3d3e3a,-1em 15em #5bbc2a,
+    -0.2em 15em #3d3e3a,0.5em  15em #3d3e3a,
+    1.2em  15em #3d3e3a,1.9em  15em #d7dac7,
+    2.6em  15em #d7dac7,3.3em  15em #d7dac7,
+    4.1em  15em #d7dac7,4.8em  15em #d7dac7,
+    5.5em  15em #3d3e3a,6.2em  15em #5bbc2a,
+    7em    15em #5bbc2a,7.8em  15em #5bbc2a,
+    8.6em  15em #5bbc2a,9.4em 15em #3d3e3a,
+    10.2em 15em #3d3e3a, 11em 15em #5bbc2a,
+    11.8em 15em #5bbc2a,12.6em 15em #3d3e3a,
+
+    /*body 6th line*/
+    -1.8em 15.8em #3d3e3a,-1em 15.8em #5bbc2a,
+    -0.2em 15.8em #5bbc2a,0.5em  15.8em #3d3e3a,
+    1.2em  15.8em #3d3e3a,1.9em  15.8em #d7dac7,
+    2.6em  15.8em #d7dac7,3.3em  15.8em #d7dac7,
+    4.1em  15.8em #d7dac7,4.8em  15.8em #3d3e3a,
+    5.5em  15.8em #5bbc2a,6.2em  15.8em #d7dac7,
+    7em    15.8em #d7dac7,7.8em  15.8em #5bbc2a,
+    8.6em  15.8em #5bbc2a,9.4em 15.8em #5bbc2a,
+    10.2em 15.8em #3d3e3a, 11em 15.8em #5bbc2a,
+    11.8em 15.8em #d7dac7,12.6em 15.8em #3d3e3a,
+
+    /* body 7th line */
+    -1.8em 16.6em #3d3e3a,-1em 16.6em #5bbc2a,
+    -0.2em 16.6em #5bbc2a,0.5em  16.6em #5bbc2a,
+    1.2em  16.6em #3d3e3a,1.9em  16.6em #3d3e3a,
+    2.6em  16.6em #d7dac7,3.3em  16.6em #d7dac7,
+    4.1em  16.6em #d7dac7,4.8em  16.6em #3d3e3a,
+    5.5em  16.6em #3d3e3a,6.2em  16.6em #d7dac7,
+    7em    16.6em #d7dac7,7.8em  16.6em #5bbc2a,
+    8.6em  16.6em #5bbc2a,9.4em 16.6em #5bbc2a,
+    10.2em 16.6em #3d3e3a, 11em 16.6em #d7dac7,
+    11.8em 16.6em #d7dac7,12.6em 16.6em #3d3e3a,
+
+    /*body 8th line*/
+    -1.8em 17.4em #3d3e3a,-1em 17.4em #5bbc2a,
+    -0.2em 17.4em #5bbc2a,0.5em  17.4em #5bbc2a,
+    1.2em  17.4em #3d3e3a,1.9em  17.4em #3d3e3a,
+    2.6em  17.4em #d7dac7,3.3em  17.4em #d7dac7,
+    4.1em  17.4em #d7dac7,4.8em  17.4em #3d3e3a,
+    5.5em  17.4em #5bbc2a,6.2em  17.4em #5bbc2a,
+    7em    17.4em #5bbc2a,7.8em  17.4em #5bbc2a,
+    8.6em  17.4em #5bbc2a,9.4em 17.4em #5bbc2a,
+    10.2em 17.4em #3d3e3a, 11em 17.4em #d7dac7,
+    11.8em 17.4em #3d3e3a,
+
+    /*body 9th line*/
+    -1em 18.2em #3d3e3a,
+    -0.2em 18.2em #3d3e3a,0.5em  18.2em #3d3e3a,
+    1.2em  18.2em #3d3e3a,1.9em  18.2em #3d3e3a,
+    2.6em  18.2em #3d3e3a,3.3em  18.2em #d7dac7,
+    4.1em  18.2em #d7dac7,4.8em  18.2em #d7dac7,
+    5.5em  18.2em #3d3e3a,6.2em  18.2em #5bbc2a,
+    7em    18.2em #5bbc2a,7.8em  18.2em #5bbc2a,
+    8.6em  18.2em #5bbc2a,9.4em 18.2em #3d3e3a,
+    10.2em 18.2em #d7dac7, 11em 18.2em #d7dac7,
+    11.8em 18.2em #3d3e3a,
+
+    /*legs 1th line*/
+    2.6em  19em #3d3e3a,3.3em  19em #d7dac7,
+    4.1em  19em #d7dac7,4.8em  19em #d7dac7,
+    5.5em  19em #d7dac7,6.2em  19em #3d3e3a,
+    7em    19em #3d3e3a,7.8em  19em #3d3e3a,
+    8.6em  19em #3d3e3a,9.4em 19em #3d3e3a,
+    10.2em 19em #3d3e3a, 11em 19em #3d3e3a,
+
+    /*legs 2th line*/
+    3.3em  19.8em #3d3e3a,
+    4.1em  19.8em #3d3e3a,4.8em  19.8em #3d3e3a,
+    5.5em  19.8em #d7dac7,6.2em  19.8em #d7dac7,
+    7em    19.8em #3d3e3a,7.8em  19.8em #daa916,
+    8.6em  19.8em #daa916,9.4em 19.8em #c66044,
+    10.2em 19.8em #c66044, 11em 19.8em #3d3e3a,
+
+    /*legs 3th line*/
+    2.6em  20.6em #3d3e3a,3.3em  20.6em #3d3e3a,
+    4.1em  20.6em #3d3e3a,4.8em  20.6em #daa916,
+    5.5em  20.6em #3d3e3a,6.2em  20.6em #3d3e3a,
+    7em    20.6em #3d3e3a,7.8em  20.6em #daa916,
+    8.6em  20.6em #daa916,9.4em 20.6em #c66044,
+    10.2em 20.6em #c66044, 11em 20.6em #3d3e3a,
+
+    /*legs 4th line*/
+    1.8em 21.4em #3d3e3a,2.6em  21.4em #d7dac7,
+    3.3em  21.4em #daa916,4.1em  21.4em #daa916,
+    4.8em  21.4em #c66044,5.5em  21.4em #c66044,
+    6.2em  21.4em #3d3e3a,7em    21.4em #daa916,
+    7.8em  21.4em #d7dac7,8.6em  21.4em #c66044,
+    9.4em 21.4em #c66044,10.2em 21.4em #c66044, 
+    11em 21.4em #c66044,11.8em 21.4em #3d3e3a,
+
+    /*legs 5th line*/
+    1.8em 22.2em #3d3e3a,2.6em  22.2em #daa916,
+    3.3em  22.2em #c66044,4.1em  22.2em #c66044,
+    4.8em  22.2em #c66044,5.5em  22.2em #c66044,
+    6.2em  22.2em #3d3e3a,7em    22.2em #daa916,
+    7.8em  22.2em #daa916,8.6em  22.2em #daa916,
+    9.4em 22.2em #c66044,10.2em 22.2em #c66044, 
+    11em 22.2em #c66044,11.8em 22.2em #3d3e3a,
+
+    /*legs 6th line*/
+    1.8em 23em #3d3e3a,2.6em  23em #3d3e3a,
+    3.3em  23em #3d3e3a,4.1em  23em #3d3e3a,
+    4.8em  23em #3d3e3a,5.5em  23em #3d3e3a,
+    6.2em  23em #3d3e3a,7em    23em #3d3e3a,
+    7.8em  23em #3d3e3a,8.6em  23em #3d3e3a,
+    9.4em 23em #3d3e3a,10.2em 23em #3d3e3a, 
+    11em 23em #3d3e3a,11.8em 23em #3d3e3a
+}
+

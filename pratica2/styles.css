@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* Card Mari*/
+    --color-card-backgraund: #ffffff;
+    --color-backgraund: #cd5253;
+    --color-btn: #2572fe;
+
+    /* Card Barbarian*/
+    --color-barbarian-backgraund:  #7f6351;
+    --color-statics-backgraund: #ec9c3c;
+}
+
+
+
+
+body{
+    background: linear-gradient( seagreen, var(--color-btn));
+}
+
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+/* Card de Mario*/
+
+.card{
+    display: inline-block;
+    width: 279px;
+    height: 560px;
+    background-color: var(--color-card-backgraund);
+    border-radius: 12% 12% 2% 2%;
+    margin: auto 30px;
+}
+
+.card_character{
+    width: 280px;
+    height: 300px;
+    background: linear-gradient( #2572fe ,#cd525286);
+    border-radius: 12%;
+    position: relative;
+}
+
+.card_img{
+    width: 250px;
+    height: 315px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+
+.card_title{
+    margin: 20px;
+
+}
+
+.card_paragraf {
+    color: #989b9e;
+    line-height: 25px;
+    margin: 12px;
+}
+
+
+.cta {
+    display: block;
+    text-decoration: none;
+    background-color: var(--color-btn);
+    width: 90%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+    margin: 25px 12px;
+}
+
+
+/*Card Barbarian*/
+
+
+.card_barbarian{
+    display: inline-block;
+    border-radius: 12% 12% 0 0;
+    width: 220px;
+    height: 400px;
+    background-color: white;
+    margin: auto 30px;
+}
+
+.card_character2{
+    width: 220px;
+    height: 183px;
+    background: linear-gradient( #989b9e 45%,var(--color-barbarian-backgraund));
+    width: 280p;
+    position: relative;
+    border-radius: 15% 12% 0 0;
+    outline: 1px solid black;
+}
+
+.card_barbarian_img{
+    position:absolute;
+    width: 400px;
+    height: 270px;
+    left: -46%;
+    top: -30%;
+}
+
+
+.card_barbarian_level{
+    color: #ec9c3c;
+    text-align: center;
+    margin: 20px 0 -30px 10px ;
+    font-family: 'inter';
+    font-weight: 600 ;
+    font-size: 13px;
+}
+
+.card_barbarian_title {
+    margin: 30px 0 0 10px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'inter';
+    font-weight: 600;
+}
+
+.card_text{
+    color: #a8a8a8;
+    margin: 20px 6px;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'inter';
+    font-weight: 300;
+}
+
+.card_statics {
+    display: flex;
+    flex-wrap: wrap;
+    width: 220px;
+    height: 60px;
+    background-color: var(--color-statics-backgraund);
+    border-radius: 0 0 10px 10px;
+}
+
+
+.card-size {
+    font-size: 8px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.card_barbarian_paragraf {
+    width: 73px;
+    height: 60px;
+    border-top: 1px solid #cf8933;
+    border-left: 1px solid #cf8933;
+    border-right: 1px solid #cf8933;
+    border-radius: 0 0 0 10px;
+}
+
+.card_barbarian_paragraf2 {
+    width: 73px;
+    height: 60px;
+    border-right:1px solid #cf8933 ;
+    border-top: 1px solid #cf8933;
+}
+
+.card_barbarian_paragraf3{
+    width: 73px;
+    height: 60px;
+    border-right:1px solid #cf8933 ;
+    border-top: 1px solid #cf8933;
+    border-radius: 0 0 10px 10px;
+
+}
+
+.card_barbarian-center {
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+    color: white;
+    line-height: 8px;
+}
+
+
+
+
+
+
+
+
+
